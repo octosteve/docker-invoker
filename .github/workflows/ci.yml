@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: "octosteve/docker-action-spike@main"
+        with:
+          token: "${{github.token}}"
